@@ -1,0 +1,203 @@
+@charset "utf-8";
+@media screen and (max-width: 768px) {
+	body {
+		min-width: auto;
+		background: #fff;
+	}
+	.inner {
+		width: 100%;
+	}
+	img {
+		max-width: 100%;
+	}
+	.pc_none {
+		display: block;
+	}
+	.sp_non, .bg_white {
+		display: none;
+	}
+	header {
+    padding: 10px 10px 12px;
+    margin: 0 auto;
+    position: relative;
+    height: 50px;
+    background-color: #000;
+	}
+	#head_area {
+		padding: 0 20px;
+		position: static;
+	}
+	header h1 {
+    margin: 0;
+    width: 230px;
+    line-height: 1;
+    position: relative;
+    z-index: 1000;
+	}
+	#nav {
+		position: fixed;
+		background-color: #000;
+		width: 100%;
+		left: 0;
+		top: 0;
+		height: 100%;
+		padding: 50px 0 0;
+		z-index: 9999;
+		margin: 0;
+	}
+	#nav, #logo {
+		float: none;
+	}
+	#nav, #entry {
+		display: none;
+	}
+	#nav ul li {
+		float: none;
+		margin: 0;
+	}
+	.tlg_btn {
+		display: block;
+		position: absolute;
+		top: 10px;
+		right: 0;
+		z-index: 99999;
+	}
+	.tlg_btn span {
+		display: block;
+		height: 1px;
+		width: 22px;
+		margin-bottom: 7px;
+		background: #fff;
+	}
+	#key_visual {
+		position: static;
+		margin: 30px 0 0;
+	}
+	#visual {
+		height: auto;
+	}
+	#visual .inner {
+		padding-top: 20px;
+		padding: 0 20px;
+	}
+	#visual h2 {
+		text-align: center;
+		margin: 45px 0 30px;
+	}
+	#content_wrap section {
+		padding: 30px 40px;
+	}
+	#message_wrap {
+		margin-top: 0;
+		background: #fff;
+	}
+	#message, #interview {
+		width: auto;
+		height: auto;
+		padding: 0;
+		text-align: center;
+	}
+	#content_wrap section h2 {
+    margin: auto auto 45px;
+    text-align: center;
+    position: static;
+    line-height: 0.5;
+	}
+	#content_wrap section h2::after {
+		margin: 20px auto;
+	}
+	#message p {
+		width: auto;
+		margin: 30px 0 !Important;
+	}
+	#message p.copy {
+    margin: 0 auto 36px;
+    line-height: 0.5;
+    width: auto;
+	}
+	#message p.img01 {
+		position: static;
+	}
+	#interview h3 {
+		padding: 20px 0;
+		margin-bottom: 0;
+	}
+	#interview p {
+		width: auto;
+	}
+	#interview, #interview01, #interview02, #interview03 {
+		height: auto;
+		width: auto;
+		padding: 0;
+		margin: 0 0 100px;
+	}
+	#interview .name {
+    width: 68.33%;
+    margin: 0 0 9px auto;
+    line-height: 1;
+		position: static;
+	}
+	#interview .number {
+		top: 0;
+    left: -10px;
+    z-index: 80;
+    width: 84px;
+	}
+	#interview02 .name {
+    width: 68.33%;
+    margin: 0 0 9px auto;
+    line-height: 1;
+		position: static;
+	}
+	#interview02 .number {
+		top: 0;
+    right: -10px;
+    z-index: 80;
+    width: 84px;
+	}
+	#interview .photo01 {
+		position: static;
+	}
+	#company_wrap {
+		margin: 0;
+		background-image: url(../img/bg_company.png);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px 40px;
+	}
+	#company {
+		height: auto;
+		width: auto;
+	}
+	#company ul {
+		padding: 0;
+	}
+	#company ul li {
+		margin: 10px 0;
+	}
+	#company ul li:nth-child(even) {
+		margin: 0;
+	}
+	#recruit_wrap {
+		margin: 0;
+		background-position: center top;
+	}
+	#recruit {
+		width: auto;
+		height: auto;
+		padding: 0;
+	}
+	#recruit ul li {
+		float: none;
+	}
+	#recruit ul li:first-child {
+		margin: 0 0 10px;
+	}
+	#banner_area {
+		padding: 20px 0;
+	}
+	.f_link {
+		padding: 30px 0 0;
+	}
+}
